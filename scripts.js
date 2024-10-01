@@ -18,7 +18,7 @@ document.querySelectorAll('.button').forEach((button) => {
                 }
                 break;
             case "C":
-                input = "";
+                data_input="";
                 input.value = data_input;
                 break;
             case "bac":
@@ -28,7 +28,7 @@ document.querySelectorAll('.button').forEach((button) => {
                 break;
             case "00":
             case "000":
-                input += value;  
+                data_input += value;  
                 // Appends multiple zeroes
                 input.value = data_input;
                 break;
