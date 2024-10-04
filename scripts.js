@@ -36,10 +36,6 @@ document.querySelectorAll('.button').forEach((button) => {
                 data_input = parseFloat((data_input) / 100).toString();
                 input.value = data_input;
                 break;
-            case "X":
-                data_input += "*";
-                input.value = data_type;
-                break;
             default:
                 data_input += value;
                 // Append the clicked button value
